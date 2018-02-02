@@ -1,0 +1,64 @@
+body {
+  background: whitesmoke;
+}
+
+
+#border {
+  border-radius: 1em;
+  background-color: gainsboro;
+  width: 55em;
+  height: 50em;
+  padding: 1%;
+  margin: auto;
+  box-shadow: 0em 0em 10em 0.5em grey;
+}
+
+#canvas {
+  padding-top: 1.5%;
+  width: 50em;
+  height: 40em;
+  margin: auto;
+}
+
+#palette {
+  width: 50em;
+  height: 8em;
+  margin: auto;
+}
+
+.pixel {
+  float: left;
+  background-color: white;
+  border: 1px solid gainsboro;
+  width: 1em;
+  height: 1em;
+}
+
+.paletteColors {
+  float: left;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+  box-shadow: 0em 0em 1em 0.1em grey;
+}
+
+.text {
+  color: black;
+  float: left;
+  width: 12em;
+  height: 35px;
+  margin: 10px;
+  font-family: fantasy;
+  padding-top: 1%;
+}
+
+
+.currentColor {
+  float: left;
+  background-color: white;
+  border: 1px solid azure;
+  width: 5em;
+  height: 35px;
+  margin: 10px;
+}
